@@ -1,0 +1,294 @@
+
+@font-face{
+    font-family: adarsh;
+    src: url(product-sans/Product\ Sans\ Regular.ttf);
+
+}
+
+
+@font-face{
+    font-family: ar;
+    src: url(product-sans/Product\ Sans\ Bold.ttf);
+
+}
+
+
+*{
+    margin: 0;
+padding: 0;
+  box-sizing: border-box;
+  font-family: adarsh;
+  
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 68, 0, 0.585);
+   
+}
+
+nav{
+    position: fixed;
+    padding: 0vw 10vw;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+     z-index: 100;
+     color: #fff;
+}
+
+nav a,i{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.centre-div{
+    display: flex;
+    gap: 3vw;
+    background-color: rgba(235, 235, 235, 0.44);
+    padding: 1vw 4vw;
+    border-radius: 25px;
+}
+
+nav i{
+    font-size: 1.5vw;
+    background-color: rgba(235, 235, 235, 0.44);
+    padding: 1vw;
+    border-radius: 25px;
+}
+
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg,#f8950a,#e54c1ecc);
+}
+
+.one h1{
+    color: #fff;
+font-family: ar;
+    font-size: 25vw;
+    text-shadow: 20px 20px #712710cc;
+}
+
+#fanta{
+    position: absolute;
+    height: 61%;
+    z-index: 2;
+transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#orange{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+top: 10%;
+ left: 36%;
+    width: 15%;
+    z-index: 1;
+   filter: drop-shadow(20px 5px 4px #8B3812);
+
+}
+
+#orange-grp{
+   position: absolute;
+   width: 23%;
+   top: 55%;
+   right: 30%;
+   z-index: 3;
+   filter: drop-shadow(20px 5px 4px #8B3812);
+   transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#leaf{
+    position: absolute;
+    height: 15%;
+  top: 75%;
+  right: 10%;
+  filter: drop-shadow(10px 5px 4px #8B3812);
+
+}
+
+#leaf2{
+    position: absolute;
+    top: 3%;
+    right: 0;
+    filter: drop-shadow(10px 5px 4px #8B3812);
+}
+
+#leaf3{
+    position: absolute;
+    transform: rotate(60deg);
+    height: 23%;
+    top: 8%;
+    left: 0%;
+    filter: drop-shadow(10px 5px 4px #8B3812);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.two{
+    width: 100%;
+    height: 110vh;
+    background-color: #4A1F1D;
+    display: flex;
+}
+
+.left{
+/* background-color: #f8950a; */
+    width: 50%;
+    height: 100%;
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.right{
+    /* background-color: #634926; */
+        width: 50%;
+        height: 100%;
+
+          
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+
+    
+    }
+    
+    .left svg{
+     
+        margin-top: 60vh;
+        transform: rotateX(50deg);
+        width: 60%;
+
+        left: 0;
+    }
+    
+    
+     .right h1{
+        font-size: 5vw;
+        color: #fff;
+     }
+
+ .right p{
+    font-size: 1.2vw;
+    color: #fffff0;
+    width: 80%;
+ }
+
+ .three{
+    position: relative;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5vw;
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg,#f8950a,#e54c1ecc);
+ }
+
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 2vh;
+    width: 25vw;
+height: 72vh;
+ background-color: #fff;
+margin-top: 10vh;
+border-radius: 25px;
+
+box-shadow: 12px 12px 2px 1px #8B3911;
+}
+
+.card h1{
+    margin-top: 45vh;
+    font-size: 3vw;
+    gap: 4vh;
+}
+
+
+.ok{
+    margin-top: 60vh;
+    font-size: 3vw;
+    gap: 6vh;
+}
+
+.card button{
+font-size: 1vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+border: none;
+background-color: #115FA2;
+color: #fff;
+}
+
+
+#first{
+    background-color: #FD8D0E;
+}
+
+#second{
+    background-color: #EC2227;
+}
+
+
+#pepsi{
+    
+    filter: drop-shadow(10px 5px 4px #115ea295);
+    z-index: 5;
+    top: 7%;
+    position: absolute;
+    width: 22vw;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#cola{
+    z-index: 5;
+    top: 10%;
+    /* left: 50%; */
+    position: absolute;
+    width: 29vw;
+    filter: drop-shadow(5px 5px 4px #eb1b2c90);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.back{
+    z-index: 1;
+    top: 0;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 22vw;
+    position: absolute;
+}
+
+
+
+
+
+
+
